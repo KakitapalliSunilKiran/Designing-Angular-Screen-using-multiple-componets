@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    width: 700px;
+    margin-left: 350px;
+   
+}
+.site-name{
+    padding: 5px 30px;
+}
+
+.site-menu{
+    padding: 25px 30px;
+    margin: 5px;
+}
+a{
+    padding: 10px;
+}

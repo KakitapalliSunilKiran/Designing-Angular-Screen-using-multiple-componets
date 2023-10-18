@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+
+}
+.site-image{
+    margin-right: 50px;
+    margin-left: 350px;
+    
+}
+.site-slogan{
+    text-align: center;
+}

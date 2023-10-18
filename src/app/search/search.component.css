@@ -1,0 +1,32 @@
+.disp1-container{
+    border: 2px solid green;
+    display: flex;
+    width: 700px;
+    margin: 50px;
+    background-color:bisque;
+    
+}
+.id-container{
+    
+    text-align: center;
+    padding: 30px;
+   
+}
+.name-container{
+    text-align: center;
+    padding: 30px;
+  
+}
+.price-container{
+    text-align: center;
+    padding: 30px;
+   
+}
+.available-conatainer{
+    text-align: center;
+    padding: 30px;
+    
+}
+.image-container{
+    height: 150px;
+}

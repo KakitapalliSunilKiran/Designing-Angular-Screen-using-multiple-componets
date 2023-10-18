@@ -1,0 +1,22 @@
+<p>search works!</p>
+<!-- "Enter value"<input type="text" (input)="display($event)"> -->
+
+<input type="text" [(ngModel)]="disp">
+
+{{disp}}
+
+<div class="disp1-container" *ngFor="let product of products" [ngStyle]="{backgroundColor: product.available==='Available'?'#D5F5E3':'#FADBD8'}">
+    <div class="id-container">
+        <h1>{{product.id}}</h1>
+    </div>
+    <div class="name-container">
+        <h1>{{product.name}}</h1>
+    </div>
+    <div class="price-container">
+        <h1>{{product.price}}</h1>
+    </div>
+    <div class="available-conatainer" [ngStyle]="{color: product.available==='Available'?'Green':'Red'}">
+        <h1>{{product.available}}</h1>
+    </div>
+    <img class="image-container" [src]="product.image">
+</div>
